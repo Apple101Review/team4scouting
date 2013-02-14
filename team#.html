@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+	<center>
+		<h1>Team 4 ELEMENT</h1>
+		<form>
+			Match Number: 24<br />
+			Team Number: 0004<br />
+			<br />
+			<input type="radio" name="allianceColor" value="Red" checked="true">Red<br />
+			<input type="radio" name="allianceColor" value="Blue">Blue<br />
+			<br />
+			Total Points Scored: Sum(31);<br /> <!-- Sum of the below (endented) individual goal scores...-->
+				Low Goal Score: 2<br />
+				Medium Goal Score: 2<br />
+				High Goal Score: 22<br />
+				Pyramid Goal Score: 5<br />
+			<!-- Add per each goal as well -->
+
+			Alliance Score: 119<!-- This only displays after all three teams on the alliance have been inputted, a total score from the three individual fields.--><br />
+			Penalties: 1<br />
+			<br />
+			<h1>Scoring:</h1>
+			<input type="radio" name="scoreBool" value="Can Score" checked="true">Can Score<br />
+			<input type="radio" name="scoreBool" value="Cannot Score">Cannot Score<br />
+			<br />
+			<h3>Can Score On:</h3>
+			<input type="checkbox" name="goalScoreValue" value="1 Point Goal" checked="true">1 Point Goal<br />
+			<input type="checkbox" name="goalScoreValue" value="2 Point Goal" checked="true">2 Point Goal<br />
+			<input type="checkbox" name="goalScoreValue" value="3 Point Goal" checked="true">3 Point Goal<br />
+			<input type="checkbox" name="goalScoreValue" value="5 Point Goal">5 Point Goal<br />
+			<br />
+			<h3>Special Features:</h3>
+			<input type="checkbox" name="specialFeatures" value="Defense">Defense<br />
+			<input type="checkbox" name="specialFeatures" value="Climb Assist">Climb Assist<br />
+			<input type="checkbox" name="specialFeatures" value="Scoring Human Player" checked="true">Scoring Human Player<br />
+			<br />
+			<h3>Climbing:</h3>
+			<input type="radio" name="climbing" value="Can Climb" checked="">Can Climb<br />
+			<input type="radio" name="climbing" value="Cannot Climb">Cannot Climb<br />
+			<br />
+			<h3>Can Climb To:</h3>
+			<input type="checkbox" name="canClimbToLevel" value="Level One">Level 1<br />
+			<input type="checkbox" name="canClimbToLevel" value="Level Two">Level 2<br />
+			<input type="checkbox" name="canClimbToLevel" value="Level Three" checked="">Level 3<br />
+			<br />
+			<h3>Describe Movement:</h3>
+				This robot moves well.
+			<br />
+			<br />
+			<h3>Additional Comments:</h3>
+				This robot does not act properly.
+		</form>
+	</center>
+</body>
+</html>

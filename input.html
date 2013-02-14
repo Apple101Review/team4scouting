@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+	<center>
+		<h1>Match Scouting</h1>
+		<form>
+			Match Number: <input type="text" name"matchNumber"><br />
+			Team Number: <input type="text" name"teamNumber"><br />
+			<br />
+			<input type="radio" name="allianceColor" value="Red">Red<br />
+			<input type="radio" name="allianceColor" value="Blue">Blue<br />
+			<br />
+			Total Points Scored: <input type="text" name="soloTotalPointsScored"><br /> <!-- Sum of the below (endented) individual goal scores...-->
+				Low Goal Score: <input type="text" name="singleGoalScore"><br />
+				Medium Goal Score: <input type="text" name="singleGoalScore"><br />
+				High Goal Score: <input type="text" name="singleGoalScore"><br />
+				Pyramid Goal Score: <input type="text" name="singleGoalScore"><br />
+			<!-- Add per each goal as well -->
+			Alliance Score: <!-- This only displays after all three teams on the alliance have been inputted, a total score from the three individual fields.--><br />
+			Penalties: <input type="text" name="teamPenalties"><br />
+			<br />
+			<h1>Scoring:</h1>
+			<input type="radio" name="scoreBool" value="Can Score">Can Score<br />
+			<input type="radio" name="scoreBool" value="Cannot Score">Cannot Score<br />
+			<br />
+			<h3>Can Score On:</h3>
+			<input type="checkbox" name="goalScoreValue" value="1 Point Goal">1 Point Goal<br />
+			<input type="checkbox" name="goalScoreValue" value="2 Point Goal">2 Point Goal<br />
+			<input type="checkbox" name="goalScoreValue" value="3 Point Goal">3 Point Goal<br />
+			<input type="checkbox" name="goalScoreValue" value="5 Point Goal">5 Point Goal<br />
+			<br />
+			<h3>Special Features:</h3>
+			<input type="checkbox" name="specialFeatures" value="Defense">Defense<br />
+			<input type="checkbox" name="specialFeatures" value="Climb Assist">Climb Assist<br />
+			<input type="checkbox" name="specialFeatures" value="Scoring Human Player">Scoring Human Player<br />
+			<br />
+			<h3>Climbing:</h3>
+			<input type="radio" name="climbing" value="Can Climb">Can Climb<br />
+			<input type="radio" name="climbing" value="Cannot Climb">Cannot Climb<br />
+			<br />
+			<h3>Can Climb To:</h3>
+			<input type="checkbox" name="canClimbToLevel" value="Level One">Level 1<br />
+			<input type="checkbox" name="canClimbToLevel" value="Level Two">Level 2<br />
+			<input type="checkbox" name="canClimbToLevel" value="Level Three">Level 3<br />
+			<br />
+			<h3>Describe Movement:</h3>
+			<textarea name="movementDescription" cols="40" rows="17">Notes Go Here...
+			</textarea><br />
+			<br />
+			<h3>Additional Comments:</h3>
+			<textarea  name="additionalComments" cols="40" rows="17">Additional Comments Go Here...
+			</textarea>
+			<br />
+			<input type="submit" value="Submit Scout Sheet">
+		</form>
+	</center>
+</body>
+</html>
